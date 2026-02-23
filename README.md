@@ -15,7 +15,7 @@ Passionate about Full Stack Development (Java + React).
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ankit%20Kumar%20Gupta-blue?logo=linkedin)](https://www.linkedin.com/in/ankit2upu/)
 [![GitHub](https://img.shields.io/badge/GitHub-ankit2upu-black?logo=github)](https://github.com/ankit2upu)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Site-green?logo=netlify)](https://your-netlify-link.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Site-green?logo=netlify)](https://ankit2upuportfolio.netlify.app)
 
 ---
 

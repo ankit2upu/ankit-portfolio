@@ -1,9 +1,9 @@
 # 💼 Ankit Kumar Gupta - Developer Portfolio
+---
+## 🌐 Live Portfolio
+👉 [![Live Demo](https://img.shields.io/badge/Live-Demo-green)]( https://ankit2upuportfolio.netlify.app/)
 
 ![Portfolio Banner](https://your-image-link)
-
-## 🌐 Live Portfolio
-🔗 [Visit Here]( https://ankit2upuportfolio.netlify.app/)
 
 ---
 

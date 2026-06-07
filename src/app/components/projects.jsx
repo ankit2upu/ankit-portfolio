@@ -2,34 +2,66 @@ import { motion } from 'motion/react';
 import { ExternalLink, Github } from 'lucide-react';
 import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
 import ems from '../../assets/ems.png'
+import tools from '../../assets/tools.png'
+import x from '../../assets/college.png'
+import chatbot from '../../assets/chatbot.png'
+import tic from '../../assets/tic.png'
+import arcl from '../../assets/arcl.png'
 
 export function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'You Tube Tools',
       description:
-        'A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.',
-      image: 'https://images.unsplash.com/photo-1687524690542-2659f268cde8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3MDA1NTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['React', 'Spring Boot', 'Mysql', 'Stripe'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+        'Full Stack YouTube Tools web app using Spring Boot, Thymeleaf & Tailwind CSS with YouTube Data API integration for SEO tags, thumbnails & video analytics.',
+      image:tools,
+      tags: ['Thymeleaf', 'Spring Boot', 'Mysql' ],
+      github: 'https://github.com/ankit2upu/YouTubeTools',
+      demo: 'https://youtubetools-6u2l.onrender.com/',
     },
+
     {  title: 'Employee Management System',
       description:
-        'Based on React and Spring Boot to manage employee and use Mysql database',
+        'Full Stack Employee Management System built using React.js, Spring Boot, REST APIs, Axios, Spring Data JPA, and MySQL.',
       image:ems,
-      tags: ['React', 'Spring Boot', 'Mysql'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      tags: ['React', 'Spring Boot', 'Mysql','Tailwind'],
+      github: 'https://github.com/ankit2upu/Employee-Management-System',
+      demo: 'https://emsfrontendd.netlify.app/',
       
     },
-    { title: 'Task Management App',
+    { title: 'A Simple Chatbot',
       description:
-        'A collaborative project management tool with real-time updates, team features, and analytics.',
-      image: 'https://images.unsplash.com/photo-1652696290920-ee4c836c711e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBjb2RpbmclMjB3b3Jrc3BhY2UlMjBkZXNrfGVufDF8fHx8MTc3MDA5MDI4M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['JavaScript', 'React.js', 'Spring Boot','Mysql',],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+        'This project demonstrates how to build an AI-powered backend using Spring AI in a Spring Boot application. It integrates with a locally running LLM via Ollama and uses the Qwen(qwen2.5:3b) model to generate intelligent responses',
+      image:chatbot,
+      tags: ['Spring Boot', 'Spring ai', 'html','css', 'Ollama', 'Qwen'],
+      github: 'https://github.com/ankit2upu/springboot-ollama-qwen-integration',
+      demo: 'https://springboot-ollama-qwen-integration.onrender.com/',
+      
+    },
+     { title: 'University-landing Page Website',
+      description:
+        'A simple and responsive website built using React.js, JavaScript, and CSS as part of my college project.',
+      image:x,
+      tags: ['JavaScript', 'React.js', 'css','html',],
+      github: 'https://github.com/ankit2upu/simple_react_app',
+      demo: 'https://ankitrupubasicreact.netlify.app/',
+      
+    },
+    
+     { title: 'ARCL Instruments',
+      description: 'ARCL Instruments is a full-stack web application for scientific equipment management.Allows product search, filtering, quotation requests, and order management.',
+      image:arcl,
+      tags: ['React.js', 'Tailwind', 'css','MongoDB', 'Node.js', 'Express.js'],
+      github: 'https://github.com/ankit2upu/simple_react_app',
+      demo: 'https://ankitrupubasicreact.netlify.app/',
+      
+    },
+     { title: 'Tic Toc Toe',
+      description:'A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript. This project demonstrates core front-end development concepts like DOM manipulation, game logic, and responsive UI design.',
+      image:tic,
+      tags: ['JavaScript','css','html', 'DOM'],
+      github: 'https://github.com/ankit2upu/tic-tac-toe/',
+      demo: 'https://ankit2upu.github.io/tic-tac-toe/',
       
     },
   ];

@@ -5,15 +5,15 @@ export function Skills() {
   const skillCategories = [
     {
       category: 'Frontend',
-      skills: ['HTML', 'CSS', 'JavaScript', 'React' ,'Responsive Design', 'DOM Manipulation'],
+      skills: ['HTML', 'CSS', 'Tailwind' ,'JavaScript', 'React' ,'Responsive Design',],
     },
     {
       category: 'Backend',
-      skills: ['Java', 'Spring Boot', 'REST APIs', 'MySQL', 'Hibernate'],
+      skills: ['Java', 'jdbc', 'Servlet', 'Spring' ,'Spring Boot', 'Spring ai', 'REST APIs', 'MySQL', 'Hibernate'],
     },
     {
       category: 'Tools & Others',
-      skills: ['Git', 'GitHub', 'VS Code', 'Maven', 'Postman', 'Eclipse'],
+      skills: ['Git', 'GitHub', 'VS Code','Postman', 'Eclipse', 'Render', 'Railways', 'Netlify', 'Aiven'],
     },
   ];
 
@@ -21,7 +21,9 @@ export function Skills() {
     { skill: 'HTML/CSS', percentage: 90 },
     { skill: 'JavaScript', percentage: 85 },
     { skill: 'Java', percentage: 80 },
-    { skill: 'Spring Boot', percentage: 60 },
+    { skill: 'Spring', percentage: 80 },
+    { skill: 'Spring Boot', percentage: 65 },
+    { skill: 'Spring ai', percentage: 45 },
     {skill: 'React', percentage:80},
     { skill: 'MySQL', percentage: 75 },
     { skill: 'Git/GitHub', percentage: 85 },

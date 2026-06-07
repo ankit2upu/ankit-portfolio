@@ -1,7 +1,7 @@
 import { ArrowDown, Github, Instagram, Linkedin, Mail } from "lucide-react";
 import { motion } from "motion/react";
 import { TypingAnimation } from "@/app/components/typing-animation";
-// import user from '../assets/user-1.png'
+ import user from '../../assets/user-3.jpg'
 
 export function Hero() {
   const scrollToSection = (sectionId) => {
@@ -24,7 +24,7 @@ export function Hero() {
             {/* <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center text-primary-foreground text-4xl mb-6">
             </div> */}
             <img
-              src="src\assets\user-3.jpg"
+              src={user}
               className="w-35 h-35 mx-auto rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center text-primary-foreground text-4xl mb-6"
               alt=""
             />
@@ -79,7 +79,7 @@ export function Hero() {
               <Mail size={24} />
             </a>
             <a
-              href="https://www.instagram.com/_ankit_gupta5"
+              href="https://www.instagram.com/__a_n_k_i__t_"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors"
